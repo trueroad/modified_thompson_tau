@@ -1,0 +1,8 @@
+*~
+.\#*
+\#*
+\#.*
+/tau_table/tau_table.hh
+*.o
+*.exe
+sample
