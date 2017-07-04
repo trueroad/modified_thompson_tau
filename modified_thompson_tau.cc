@@ -1,5 +1,5 @@
 //
-// Modified Thompson tau method library for removing outliers 2017-06-30.15
+// Modified Thompson tau method library for removing outliers 2017-07-04.11
 // https://github.com/trueroad/modified_thompson_tau/
 //
 // Copyright (C) 2017 Masamichi Hosoda. All rights reserved.
@@ -141,7 +141,7 @@ namespace modified_thompson_tau
                         [ave] (double x)
                         {
                           return std::isnan (x) ?
-                            std::numeric_limits<double>::quiet_NaN () :
+                            -1.0 :
                             std::abs (x - ave);
                         });
 
